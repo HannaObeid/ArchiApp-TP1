@@ -20,7 +20,7 @@ console.log("Array with anonymous function:", apply((n) => n + 1, [1, 2, 3, 4, 5
 
 // ------------------------------
 // Default micro-service address
-let microServiceAddress = "http://127.0.01:8080";
+let microServiceAddress = process.env.MICROSERVICE_ADDRESS;
 
 const update = (msgs) => {
     var messagesList = document.getElementById("messages-list");
