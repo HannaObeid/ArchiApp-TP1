@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ArchiAPP TP 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Messages Subject</h1>
+    </header>
+
+    <section>
+        <label for="service-address">Micro-Service Address:</label>
+        <em><label id="service-address-label"></label></em>
+        <input type="text" id="service-address-input" placeholder="Enter micro-service address">
+        <button id="set-address-button">Set Address</button>
+
+    </section>
+
+    <section>
+        <h2>Messages List</h2>
+        <ul id="messages-list">
+            <li>Message 1</li>
+            <li>Message 2</li>
+            <li>Message 3</li>
+            <li>Message 4</li>
+            <li>Message 5</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Send New Message</h2>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <button id="update-button">Send</button>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
